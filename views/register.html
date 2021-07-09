@@ -3,34 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../css/style.css">
-    <title>Document</title>
+    <title>Registro</title>
 </head>
+
 <body>
     <div class="descuentos">
-        <p>Descuentos 20%</p>
+        <p>20% de descuento en todos los productos!</p>
     </div>
 
     <header>
+        <img src="../img/Logo.png" alt="Logo tienda">
         <h1>Digital Hero</h1>
     </header>
 
-    <h2>Login</h2>
-    <form action="../login.html" method=""> 
-        <input type="text" name="username" placeholder="Nombre y Apellido">
-        <input type="email" name="email" placeholder="Correo Electrónico">
-        <input type="password" name="password" placeholder="Contraseña">
-        <select name="country">
+    
+    <form class="registro" action="./login.html" method=""> 
+        <div class="tituloForm">
+            <h2>Registro</h2>
+        </div>
+        <input type="text" name="username" placeholder="Nombre y Apellido" required>
+        <input type="email" name="email" placeholder="Correo Electrónico" required>
+        <input type="password" name="password" placeholder="Contraseña" required>
+        <select name="country" >
             <option disabled selected value="País">País</option>
-            <option >Argentina</option>
-            <option>Colombia</option>
-            <option>Brasil</option>
+            <option value="arg">Argentina</option>
+            <option value="col">Colombia</option>
+            <option value="bra">Brasil</option>
         </select>
 
-
-        <button type="submit">Entrar</button>
+        <div class="buttons2">
+            <button type="reset">Resetear</button>
+            <button type="submit">Registrar</button>
+        </div>
     </form>
-    <a href="./register.html">¿No tienes una cuenta?</a><p>Registrarme</p>
 
+    <div class="registrarse">
+        <p>¿Ya tenés una cuenta?</p>
+        <a href="./login.html">Ingresá</a>     
+    </div>
+
+
+    <footer class="footerLogin">
+        <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
 
 </body>
 </html>

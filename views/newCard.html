@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>New Card</title>
+</head>
+
+<body>
+    <div class="descuentos">
+        <p>20% de descuento en todos los productos!</p>
+    </div>
+
+    <header>
+        <img src="../img/Logo.png" alt="Logo tienda">
+        <h1>Digital Hero</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../views/contacto.html">Contacto</a></li>
+            <li><a href="../views/register.html">Registrarme</a></li>
+            <li><a href="../views/login.html">Ingresar</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="newCard">
+            <h2>Añadí tu super!</h2>
+            <p>Agregá tu personaje favorito completando las opciones.</p>
+            
+            <form action="" method=""> 
+                <div class="fila1">
+                    <div class="input-form">
+                        <label for="name">*Nombre</label>
+                        <input type="text" name="nombreDeHeroe" id="name" required>
+                    </div>
+                    <div class="input-form">
+                        <label>*Especie</label>
+                        <select name=Especies>
+                            <option value="Especie0" disabled selected>Especie</option>
+                            <option value="Especie1">Unknown</option>
+                        </select>  
+                    </div>
+                </div>    
+                <div class="fila2">
+                    <div class="input-form">
+                        <label for="">Fecha</label>
+                        <input type="date" name="fechaNacimiento" id="" placeholder="" required>
+                    </div> 
+                    <div class="input-form">
+                        <label for="">Agregar Foto</label>
+                        <input type="file" name="imagenDeHeroe" id="" placeholder="" required>
+                    </div>
+                </div>  
+                <div class="fila3"> 
+                        <div class="columna1 input-form">                  
+                            <textarea name="descripcionHeroe" id="" cols="30" rows="10">Descripción</textarea>
+                        </div> 
+                        <div class="columna2 input-form">
+                            <label for="Poderes">Poderes</label>
+                            <label>
+                                <input type="checkbox" name="Powers" id="Poderes" value="Volar">
+                                Volar
+                            </label>
+                            <label>
+                                <input type="checkbox" name="Powers" id="Poderes" value="Superinteligencia">
+                                Superinteligencia
+                            </label>
+                            <label>
+                                <input type="checkbox" name="Powers" id="Poderes" value="Vista de rayo láser">
+                                Vista de rayo láser
+                            </label>
+                            <label>
+                                <input type="checkbox" name="Powers" id="Poderes" value="Billetera gorda">
+                                Billetera gorda
+                            </label>
+                            
+                            <hr>
+                            <!-- linea -->
+
+                            <label for="personajes">
+                                Tipo de personaje
+                            </label> 
+                            <label>
+                                <input type="radio" name="characters" id="personajes" required>
+                                Héroe / Heroina
+                            </label>
+                            <label>
+                                <input type="radio" name="characters" id="personajes">
+                                Villano / Villana
+                            </label>                              
+                                
+                            
+
+                                
+                        </div>            
+                </div>
+                <button type="submit">
+                    Añadir
+                </button>
+            </form>
+
+
+        </section>
+
+
+
+
+    </main>
+    
+
+    <footer class="footerCentrado">
+        <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+
+</body>
+</html>
