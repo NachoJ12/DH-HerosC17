@@ -457,23 +457,20 @@ section.newCard form div.fila3 div.columna2.input-form label[for=Poderes] {
     font-family: 'Inter', sans-serif;
 }
 
-/* section.newCard form div.fila3 div.columna2.input-form label input[type=checkbox] {
-    -webkit-appearance: none;
-    background-color: #F3F3F3;
-    padding: 4%;
-} */
+section.newCard form div.fila3 div.columna2.input-form label input[type=checkbox] {
+    width:20px;
+    height: 20px;
+}
 
 section.newCard form div.fila3 div.columna2.input-form label[for=personajes] {
     font-family: 'Inter', sans-serif;
     padding-top: 21px;
 }
 
-/* section.newCard form div.fila3 div.columna2.input-form label input[type=radio] {
-    appearance: none;
-    padding: 4%;
-    background-color: #F3F3F3;
-    border-radius: 50%;
-} */
+section.newCard form div.fila3 div.columna2.input-form label input[type=radio] {
+    width: 20px;
+    height: 20px;
+}
 
 section.newCard form div.fila3 div.columna2.input-form label {
     font-family: 'Karla', sans-serif;
